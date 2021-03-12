@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>BigObjectsRelatedList</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>This package contains all Apex classes, Lightning Web Components &amp; Custom Labels related to the Big Objects Related List.</description>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>recordTile</name>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed>isExposed</isExposed>
+        <name>bigObjectRelatedList</name>
+        <targets>lightning__RecordPage</targets>
+    </lightningComponents>
+    <lightningComponents>
+        <isExposed xsi:nil="true"/>
+        <name>tileLine</name>
+    </lightningComponents>
+    <namespacePrefix>bOrl</namespacePrefix>
+    <types>
+        <members>BigObjectRelatedListController</members>
+        <members>BigObjectRelatedListControllerTest</members>
+        <members>GlobalUtils</members>
+        <members>GlobalUtilsTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>All_Records_Are_Displayed_Message</members>
+        <members>All_Records_Are_Displayed_Title</members>
+        <members>Go_to_URL</members>
+        <members>View_More</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>bigObjectRelatedList</members>
+        <members>recordTile</members>
+        <members>tileLine</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>49.0</version>
+</Package>
